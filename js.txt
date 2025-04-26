@@ -1,0 +1,3 @@
+function buyAcc(id) {
+  alert("Bạn đã chọn mua tài khoản #" + id + ". Vui lòng liên hệ Zalo: 0899119398 để thanh toán.");
+}

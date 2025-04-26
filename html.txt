@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bán Acc Liên Quân Mobile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>BÁN ACC LIÊN QUÂN</h1>
+    <nav>
+      <a href="#">Trang chủ</a>
+      <a href="#">Tài khoản</a>
+      <a href="#">Liên hệ</a>
+    </nav>
+  </header>
+
+  <section class="intro">
+    <h2>Uy tín - Chất lượng - Giá rẻ</h2>
+    <p>Chuyên cung cấp acc Liên Quân Mobile full tướng, full skin.</p>
+  </section>
+
+  <section class="acc-list">
+    <h2>Danh sách tài khoản</h2>
+    <div class="acc-card">
+      <img src="https://cdn.oneesports.vn/cdn-data/sites/4/2023/06/LienQuan-NakrothTrangPhuc-696x391.jpg" alt="Acc 1">
+      <h3>Acc #001</h3>
+      <p>Rank Cao Thủ, 90 tướng, 130 skin</p>
+      <p>Giá: 500K</p>
+      <button onclick="buyAcc('001')">Mua ngay</button>
+    </div>
+    <div class="acc-card">
+      <img src="https://cdn.oneesports.vn/cdn-data/sites/4/2023/01/LienQuanSkin-696x392.jpg" alt="Acc 2">
+      <h3>Acc #002</h3>
+      <p>Rank Kim Cương, 70 tướng, 80 skin</p>
+      <p>Giá: 300K</p>
+      <button onclick="buyAcc('002')">Mua ngay</button>
+    </div>
+    <!-- Thêm nhiều acc khác tại đây -->
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Shop Acc Liên Quân. Liên hệ Zalo: 0123456789</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

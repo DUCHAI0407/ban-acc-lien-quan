@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #fff;
+}
+
+header {
+  background-color: #222;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: #00ffcc;
+}
+
+nav a {
+  color: #ccc;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #00ffcc;
+}
+
+.intro {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #1a1a1a;
+}
+
+.acc-list {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.acc-card {
+  background-color: #1e1e1e;
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00ffcc22;
+}
+
+.acc-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.acc-card button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #00ffcc;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #111;
+  font-size: 0.9em;
+}
